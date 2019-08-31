@@ -1,12 +1,35 @@
-Luke Jung
-904982644
+# SIMPSH
+Simple Shell for CS111 Winter 2019
 
-Some limitations of my code are that the syntax for each command is really specific.
-Meaning that there's not really good option parsing for writing syntax that might be a little
-off or other errors.  Also, if there was some code that exploited a certain function,
-I couldn't check whether the command itself was written well because it just executes
-given the options.
+# Assignment
+http://web.cs.ucla.edu/classes/winter19/cs111/assign/lab1.html
 
-Extra features that I have include that I set each dynamic array to size 10, so it doesn't take 
-as much memory and reallocate memory in increments of 10.  Also, the error checking is pretty broad,
-it doesn't specify the exact error but more of a concept of what went wrong.
+This project was recreating some parts of the bash shell, having the following options.
+
+--append
+--cloexec
+--creat
+--directory
+--dsync
+--excl
+--nofollow
+--nonblock
+--rsync
+--sync
+--trunc
+--rdonly f
+--rdwr f
+--wronly f
+--pipe
+--command i o e cmd args
+--wait
+--close N
+--verbose
+--profile
+--abort
+--catch N
+--ignore N
+--default N
+--pause
+
+Written entirely in C code and learned many concepts of bash and linux ideas.
